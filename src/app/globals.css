@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -80,6 +81,7 @@
   @apply to-primary-color;
   @apply w-auto;
 }
+
 
 @layer base {
     * {

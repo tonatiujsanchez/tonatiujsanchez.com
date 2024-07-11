@@ -5,7 +5,7 @@ import { DropdownTheme } from "@/components"
 
 export const Header = () => {
     return (
-        <header className="container py-6 md:pt-14 md:pb-10 flex justify-between">
+        <header className="container py-6 md:pt-14 md:pb-10 flex items-center justify-between">
             <div className="flex items-center gap-5">
                 <Link
                     href="/"
@@ -33,7 +33,7 @@ export const Header = () => {
                 </nav>
             </div>
             <div>
-                <DropdownTheme />
+                {/* <DropdownTheme variant="silver" /> */}
             </div>
         </header>
     )

@@ -60,10 +60,10 @@ const BentoCard = ({
           )
         }
 
-        <h3 className="text-xl font-semibold text-neutral-700 dark:text-neutral-300 group-hover:opacity-0 transition-all">
-          {name}
+        <h3 className="text-xl font-semibold text-title-color dark:text-neutral-300 group-hover:opacity-0 transition-all">
+          { name }
         </h3>
-        <p className="max-w-lg text-neutral-400 group-hover:opacity-0 transition-all">{description}</p>
+        <p className="max-w-lg text-text-color dark:text-text-color-dark group-hover:opacity-0 transition-all">{ description }</p>
       </div>
 
       <div
@@ -72,8 +72,8 @@ const BentoCard = ({
         )}
       >
         <Button variant="default" asChild size="sm" className="pointer-events-auto">
-          <a href={href}>
-            {cta}
+          <a href={ href }>
+            { cta }
             <ArrowRightIcon className="ml-2 h-4 w-4" />
           </a>
         </Button>

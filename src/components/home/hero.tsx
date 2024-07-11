@@ -6,7 +6,7 @@ import { MdOutlineFileDownload } from "react-icons/md"
 export const Hero = () => {
     return (
         <section className="container mb-20">
-            <h1 className="text-3xl font-bold text-title-color dark:bg-gradient-to-br dark:text-pretty dark:text-transparent dark:bg-gradient-stop dark:bg-clip-text dark:from-white dark:via-white dark:via-10% dark:to-white/30">Tonatiuj Sánchez</h1>
+            <h1 className="text-4xl font-bold text-title-color dark:bg-gradient-to-br dark:text-pretty dark:text-transparent dark:bg-gradient-stop dark:bg-clip-text dark:from-white dark:via-white dark:via-10% dark:to-white/30">Tonatiuj Sánchez</h1>
             <p className="text-primary-color">Desarrollador Web FullStack</p>
             <div className="mt-7">
                 <p className="text-text-color dark:text-text-color-dark max-w-[40rem] text-standard text-pretty">

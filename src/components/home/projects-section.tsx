@@ -119,7 +119,7 @@ const features = [
 
 export const ProjectsSection = () => {
     return (
-        <section className="px-5 lg:px-12 max-w-[80rem] mx-auto mb-20 mt-28">
+        <section className="container-lg mb-20 mt-28">
             <h2 className="text-title-color dark:text-title-color-dark text-xl font-bold mb-5 flex items-center gap-2">
             <IoCodeSlash />
             <span className="dark:bg-gradient-to-br dark:text-pretty dark:text-transparent dark:bg-gradient-stop dark:bg-clip-text dark:from-white dark:via-white dark:via-20% dark:to-white/40">Proyectos</span></h2>

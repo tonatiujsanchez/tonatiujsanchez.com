@@ -1,12 +1,12 @@
-import { Header, Hero, NavDock, ProjectsSection } from "@/components"
+import { Header, Hero, NavDock, ProjectsSection, ExperienceSection } from "@/components"
 
 
 export default function Home() {
     return (
         <>
-            <Header />
             <main className="pb-16">
                 <Hero />
+                <ExperienceSection />
                 <ProjectsSection />
             </main>
             <NavDock />

@@ -73,6 +73,13 @@
   @apply px-5;
 }
 
+.container-lg {
+  @apply px-5;
+  @apply lg:px-12;
+  @apply max-w-[80rem];
+  @apply mx-auto;
+}
+
 .text-gradient-primary {
   @apply text-transparent;
   @apply bg-gradient-to-r;

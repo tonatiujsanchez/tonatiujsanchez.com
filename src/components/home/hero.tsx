@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 import { BorderBeam } from "@/components/magicui/border-beam"
 import { GoArrowUpRight } from "react-icons/go"
@@ -5,7 +6,17 @@ import { MdOutlineFileDownload } from "react-icons/md"
 
 export const Hero = () => {
     return (
-        <section className="container mb-20">
+        <section className="container mb-20 md:mt-14">
+            <figure
+                className="rounded-full overflow-hidden bg-content-color w-[4.6rem] h-[4.6rem] pt-2 my-6 md:mb-8"
+            >
+                <Image
+                    src="/images/ton.webp"
+                    alt="Logo Tonatiuj Sánchez"
+                    height={120}
+                    width={120}
+                />
+            </figure>
             <h1 className="text-4xl font-bold text-title-color dark:bg-gradient-to-br dark:text-pretty dark:text-transparent dark:bg-gradient-stop dark:bg-clip-text dark:from-white dark:via-white dark:via-10% dark:to-white/30">Tonatiuj Sánchez</h1>
             <p className="text-primary-color">Desarrollador Web FullStack</p>
             <div className="mt-7">

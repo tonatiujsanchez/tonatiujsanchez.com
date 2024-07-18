@@ -3,12 +3,13 @@ import Link from "next/link"
 import { BorderBeam } from "@/components/magicui/border-beam"
 import { GoArrowUpRight } from "react-icons/go"
 import { MdOutlineFileDownload } from "react-icons/md"
+import { Paragraph } from "../shared/paragraph"
 
 export const Hero = () => {
     return (
         <section className="container mb-20 md:mt-14">
             <figure
-                className="rounded-full overflow-hidden bg-content-color w-[4.6rem] h-[4.6rem] pt-2 my-6 md:mb-8"
+                className="rounded-full overflow-hidden bg-content-color w-[4.6rem] h-[4.6rem] pt-2 my-6 md:mb-6"
             >
                 <Image
                     src="/images/ton.webp"
@@ -20,9 +21,9 @@ export const Hero = () => {
             <h1 className="text-4xl font-bold text-title-color dark:bg-gradient-to-br dark:text-pretty dark:text-transparent dark:bg-gradient-stop dark:bg-clip-text dark:from-white dark:via-white dark:via-10% dark:to-white/30">Tonatiuj Sánchez</h1>
             <p className="text-primary-color">Desarrollador Web FullStack</p>
             <div className="mt-7">
-                <p className="text-text-color dark:text-text-color-dark max-w-[40rem] text-standard text-pretty">
+                <Paragraph className="max-w-[40rem]">
                     Soy un Desarrollador Web Fullstack con interés por el diseño UI/UX y con un fuerte compromiso con la colaboración y solución de problemas de software, cumpliendo con los altos estándares de experiencia de usuario, usabilidad y rendimiento.
-                </p>
+                </Paragraph>
                 <div className="flex items-center flex-wrap gap-4 md:gap-4 mt-7">
                     <a
                         href="mailto:tonatiujsanchez@gmail.com"

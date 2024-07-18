@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { IoBriefcaseOutline } from 'react-icons/io5'
+import { Paragraph } from '@/components'
 
 const experience = [
     {
@@ -61,12 +62,12 @@ export const ExperienceSection = () => {
                                 </figure>
                                 <div>
                                     <h3>{ position }</h3>
-                                    <p className="text-text-color dark:text-text-color-dark opacity-90 text-standard text-pretty">{ company }</p>
+                                    <Paragraph>{ company }</Paragraph>
                                 </div>
                             </div>
-                            <div className="text-text-color dark:text-text-color-dark opacity-90 w-[4.3rem] sm:w-auto text-standard text-pretty">
+                            <Paragraph className="opacity-90 w-[4.3rem] sm:w-auto">
                                 { date }
-                            </div>
+                            </Paragraph>
                         </div>
                     ))
                 }

@@ -2,15 +2,20 @@
 import Image from "next/image"
 import { useTheme } from "next-themes"
 import { ICompany } from "@/interfaces"
+import { cn } from "@/lib/utils"
 
 export const CompanyItem = ({ name, image, imageDark, className }: ICompany) => {
 
     const { theme } = useTheme()
-
+    const currentImage = theme === 'light' ? image : imageDark
+    
     return (
-        <figure className={`relative flex items-center w-[5rem] h-full px-3 ${className}`}>
+        <figure className={cn(
+            "relative flex items-center w-[5rem] h-full px-3",
+            className
+        )}>
             <Image
-                src={theme === 'dark' ? imageDark : image}
+                src={currentImage}
                 alt={name}
                 title={name}
                 width={200}

@@ -19,7 +19,7 @@ export const ProjectItem = ({ project }:Props) => {
         <MagicCard
             key={project.id}
             className="relative group cursor-pointer flex-col items-center justify-center shadow-lg whitespace-nowrap"
-            gradientColor={theme === "dark" ? "#262626" : "#C0C0C053"}
+            gradientColor={theme === "light" ? "#C0C0C053" : "#262626"}
         >
 
             <figure className={cn(

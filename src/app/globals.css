@@ -99,12 +99,12 @@
 }
 
 
-.bg-golbal {
+.bg-globe {
   @apply h-60;
   @apply bg-transparent;
 }
 
-.bg-golbal::before {
+.bg-globe::before {
   content: "";
   @apply absolute;
   @apply inset-0;
@@ -115,7 +115,7 @@
   background-color: #ffbd7a;
 }
 
-.bg-golbal::after {
+.bg-globe::after {
   content: "";
   @apply absolute;
   @apply -left-1/2;

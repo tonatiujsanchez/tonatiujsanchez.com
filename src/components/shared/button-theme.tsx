@@ -11,9 +11,9 @@ interface Props {
     variant?: "link" | "default" | "destructive" | "outline" | "secondary" | "ghost" | "silver" | null | undefined
 }
 export function ButtonTheme({ variant='link' }:Props) {
+    
     const { setTheme, theme } = useTheme()
 
-    console.log(theme)
     return (
         <Button 
             variant={ variant } 

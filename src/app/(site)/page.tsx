@@ -1,4 +1,4 @@
-import { Header, Hero, NavDock, ProjectsSection, ExperienceSection } from "@/components"
+import { Hero, NavDock, ProjectsSection, ExperienceSection, CompaniesSection } from "@/components"
 
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
                 <Hero />
                 <ExperienceSection />
                 <ProjectsSection />
+                <CompaniesSection />
             </main>
             <NavDock />
         </>

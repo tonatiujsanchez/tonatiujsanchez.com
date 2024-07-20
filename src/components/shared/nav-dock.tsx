@@ -22,7 +22,7 @@ export const NavDock = () => {
                         <IoCodeSlash size={18} />
                         <span className="text-[0.55rem]">Proyectos</span>
                     </DockIcon>
-                    <Separator orientation="vertical" className="h-full" />
+                    {/* <Separator orientation="vertical" className="h-full" /> */}
                     <DockIcon className="hover:bg-black/10 hover:dark:bg-white/10">
                         <ButtonTheme />
                     </DockIcon>

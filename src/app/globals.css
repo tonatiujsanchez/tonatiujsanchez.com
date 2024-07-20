@@ -1,4 +1,3 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -98,3 +97,34 @@
       @apply bg-background text-foreground;
     }
 }
+
+
+.bg-golbal {
+  @apply h-60;
+  @apply bg-transparent;
+}
+
+.bg-golbal::before {
+  content: "";
+  @apply absolute;
+  @apply inset-0;
+  @apply h-full;
+  @apply w-full;
+  @apply opacity-30;
+  @apply dark:opacity-15;
+  background-color: #ffbd7a;
+}
+
+.bg-golbal::after {
+  content: "";
+  @apply absolute;
+  @apply -left-1/2;
+  @apply top-1/2;
+  @apply aspect-[1/0.7];
+  @apply w-[200%]; 
+  @apply rounded-[50%]; 
+  @apply border-t;
+  @apply border-[hsl(var(--border))]; 
+  @apply bg-background;
+}
+

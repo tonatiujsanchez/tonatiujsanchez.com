@@ -53,7 +53,7 @@ const companies:ICompany[] = [
         image: '/images/companies/contextos-guerrero_light.svg',
         imageDark: '/images/companies/contextos-guerrero_dark.svg',
         name: 'Contextos Guerrero',
-        className:'w-[11rem] h-[5rem]',
+        className:'w-[10.5rem] h-[5rem]',
     },
 ]
 

@@ -1,6 +1,5 @@
 import { Dock, DockIcon } from "@/components/magicui/dock"
 import { IoHomeOutline, IoBriefcaseOutline, IoCodeSlash } from "react-icons/io5"
-import { Separator } from "../ui/separator";
 import { ButtonTheme } from "@/components";
 export type IconProps = React.HTMLAttributes<SVGElement>;
 

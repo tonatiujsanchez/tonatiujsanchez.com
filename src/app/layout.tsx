@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/providers"
+import { TooltipProvider } from "@/components/ui/tooltip"
 
 export const metadata: Metadata = {
     title: "Tonatiuj Sánchez",
@@ -24,7 +25,9 @@ export default function RootLayout({
                     enableSystem
                     disableTransitionOnChange
                 >
-                    {children}
+                    <TooltipProvider delayDuration={0}>
+                        { children }
+                    </TooltipProvider>
                 </ThemeProvider>
             </body>
         </html>
